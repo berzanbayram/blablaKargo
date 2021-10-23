@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mdh/AndroidStudioProjects/blablaCargo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Mdh/AndroidStudioProjects/blablaCargo/app/src/main/res/drawable/account.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Mdh/AndroidStudioProjects/blablaCargo/app/src/main/res/drawable/buttonarkaplan.xml" value="0.225" />
+        <entry key="..\:/Users/Mdh/AndroidStudioProjects/blablaCargo/app/src/main/res/drawable/cargo.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Mdh/AndroidStudioProjects/blablaCargo/app/src/main/res/drawable/edittextarkaplan.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Mdh/AndroidStudioProjects/blablaCargo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Mdh/AndroidStudioProjects/blablaCargo/app/src/main/res/drawable/lock.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Mdh/AndroidStudioProjects/blablaCargo/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Mdh/AndroidStudioProjects/blablaCargo/app/src/main/res/layout/activity_main_kayit.xml" value="0.371875" />
+        <entry key="..\:/Users/Mdh/Desktop/blablaKargo-origin-master/app/src/main/res/layout/activity_kargogonderme.xml" value="0.5" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.225" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/drawable/account.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/drawable/butonbcm2.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/drawable/butonbicim.xml" value="0.31354166666666666" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/drawable/buttonarkaplan.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/drawable/cargo.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/drawable/edittextarkaplan.xml" value="0.225" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.225" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/drawable/lock.xml" value="0.225" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/layout/activity_car_go1.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/layout/activity_kargogonder.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/layout/activity_kargogonderme.xml" value="0.5" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/layout/activity_main.xml" value="0.35144927536231885" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/layout/activity_main_giris_yapildi.xml" value="0.371875" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/layout/activity_main_kayit.xml" value="0.371875" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/layout/activity_nextgiris.xml" value="0.371875" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.225" />
+        <entry key="..\:/Users/Mdh/Desktop/carGo/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.225" />
+        <entry key="..\:/Users/bayra/AndroidStudioProjects/carGo/app/src/main/res/layout/activity_login_screen.xml" value="0.4" />
+        <entry key="..\:/Users/bayra/AndroidStudioProjects/carGo/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/bayra/AndroidStudioProjects/carGo/app/src/main/res/layout/activity_main_giris_yapildi.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/bayra/AndroidStudioProjects/carGo/app/src/main/res/layout/activity_main_kayit.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/bayra/Desktop/Cargo/app/src/main/res/layout/activity_main.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/bayra/Desktop/Cargo/app/src/main/res/layout/activity_main_giris_yapildi.xml" value="0.1766304347826087" />
+        <entry key="..\:/Users/bayra/Desktop/Cargo/app/src/main/res/layout/activity_main_kayit.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/bayra/Desktop/carGo/app/src/main/res/drawable/butonbcm2.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/bayra/Desktop/carGo/app/src/main/res/layout/activity_main.xml" value="0.4" />
+        <entry key="..\:/Users/bayra/Desktop/carGo/app/src/main/res/layout/activity_main_giris_yapildi.xml" value="0.536" />
+        <entry key="..\:/Users/bayra/Desktop/carGo/app/src/main/res/layout/activity_main_kayit.xml" value="0.264" />
+        <entry key="..\:/Users/musta/Desktop/New folder (2)/blablaKargo-main/carGo/app/src/main/res/layout/activity_car_go1.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/musta/Desktop/New folder (2)/blablaKargo-main/carGo/app/src/main/res/layout/activity_kargogonder.xml" value="0.33" />
+        <entry key="..\:/Users/musta/Desktop/New folder (2)/blablaKargo-main/carGo/app/src/main/res/layout/activity_kargogonder2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/musta/Desktop/New folder (2)/blablaKargo-main/carGo/app/src/main/res/layout/activity_kargogonderme.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/musta/Desktop/New folder (2)/blablaKargo-main/carGo/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/musta/Desktop/New folder (2)/blablaKargo-main/carGo/app/src/main/res/layout/activity_main_giris_yapildi.xml" value="0.33" />
+        <entry key="..\:/Users/musta/Desktop/New folder (2)/blablaKargo-main/carGo/app/src/main/res/layout/activity_main_kayit.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/musta/Desktop/New folder (2)/blablaKargo-main/carGo/app/src/main/res/layout/activity_nextgiris.xml" value="0.17831813576494426" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.17831813576494426" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

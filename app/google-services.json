@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "979126625877",
+    "project_id": "cargo-f3e7b",
+    "storage_bucket": "cargo-f3e7b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979126625877:android:2f54c64ea3a200f40c56dc",
+        "android_client_info": {
+          "package_name": "com.example.blablacargo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979126625877-beq8h794v8q31telkroob9tvhchofg6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADBu3Zz-gz82kAaqZgBzgGFWMpfo8jFlE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979126625877-beq8h794v8q31telkroob9tvhchofg6e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
