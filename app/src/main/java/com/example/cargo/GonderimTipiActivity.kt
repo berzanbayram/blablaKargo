@@ -9,13 +9,19 @@ class GonderimTipiActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_gonderim_tipi)
+
+
+
+
+
+
     }
     fun kargogonder(view: View) {
-        val intent = Intent(this, GirisActivity::class.java)
+        val intent = Intent(this, KargoGonderActivity::class.java)
         startActivity(intent)
     }
     fun kargodagit(view: View) {
-        val intent = Intent(this, GirisActivity::class.java)
+        val intent = Intent(this, KargoDagitActivity::class.java)
         startActivity(intent)
     }
 }

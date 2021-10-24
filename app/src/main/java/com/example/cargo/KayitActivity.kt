@@ -6,10 +6,9 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import kotlinx.android.synthetic.main.activity_kayit.*
+import kotlinx.android.synthetic.main.giris_activity.*
 
 class KayitActivity : AppCompatActivity() {
-
     private lateinit var auth: FirebaseAuth
 
 

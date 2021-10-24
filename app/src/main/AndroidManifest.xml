@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CarGo">
         <activity
+            android:name=".KayitActivity"
+            android:exported="false" />
+        <activity
             android:name=".BasariliActivity"
             android:exported="true" />
         <activity

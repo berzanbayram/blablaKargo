@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/litost/Desktop/blablaKargo-origine-master/app/src/main/res/layout/activity_alici_bilgileri.xml" value="0.33" />
+        <entry key="..\:/Users/litost/Desktop/blablaKargo-origine-master/app/src/main/res/layout/activity_basarili.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/litost/Desktop/blablaKargo-origine-master/app/src/main/res/layout/activity_gonderim_tipi.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/litost/Desktop/blablaKargo-origine-master/app/src/main/res/layout/activity_kargo_dagit.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/litost/Desktop/blablaKargo-origine-master/app/src/main/res/layout/activity_kargo_fiyat.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/litost/Desktop/blablaKargo-origine-master/app/src/main/res/layout/activity_kargo_gonder.xml" value="0.33" />
+        <entry key="..\:/Users/litost/Desktop/blablaKargo-origine-master/app/src/main/res/layout/activity_kayit.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/litost/Desktop/blablaKargo-origine-master/app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
+        <entry key="..\:/Users/litost/Desktop/blablaKargo-origine-master/app/src/main/res/layout/giris_activity.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/musta/AndroidStudioProjects/carGo/app/src/main/res/layout/activity_alici_bilgileri.xml" value="0.23157894736842105" />
         <entry key="..\:/Users/musta/AndroidStudioProjects/carGo/app/src/main/res/layout/activity_basarili.xml" value="0.23157894736842105" />
         <entry key="..\:/Users/musta/AndroidStudioProjects/carGo/app/src/main/res/layout/activity_gonderim_tipi.xml" value="0.2" />
@@ -25,7 +34,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.2" />
+        <option name="scale" value="0.16" />
       </ProjectState>
     </option>
   </component>
