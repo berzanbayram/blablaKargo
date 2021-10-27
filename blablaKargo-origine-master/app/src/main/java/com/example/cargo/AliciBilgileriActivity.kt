@@ -19,27 +19,31 @@ class AliciBilgileriActivity : AppCompatActivity() {
         var database = FirebaseDatabase.getInstance().reference
 
         binding.btnAlGonder.setOnClickListener{
-            var AdSoyad= binding.AdSoyad.text.toString()
-            var idTelefon= binding.telefon.text.toString()
+            var aliciAdSoyad= binding.aliciAdSoyad.text.toString()
+            var telefon= binding.telefon.text.toString()
             var ilce= binding.ilce.text.toString()
             var mahalle= binding.mahalle.text.toString()
             var cadde= binding.cadde.text.toString()
             var sokak= binding.sokak.text.toString()
 
-            database.child("Cargo Alici Bilgileri").child(idTelefon).setValue(kisiBilgileri(AdSoyad,ilce,mahalle,cadde,sokak))
+            database.child(telefon).setValue(aliciBilgileri(aliciAdSoyad,ilce,mahalle,cadde,sokak))
 
-            val intent = Intent(this, KargoFiyatActivity::class.java)
-            startActivity(intent)
+
 
         }
 
     }
+
+
 
     fun donusgerigonderici(view: View) {
         val intent = Intent(this, KargoGonderActivity::class.java)
         startActivity(intent)
     }
 
-
+    fun devamkg(view: View) {
+        val intent = Intent(this, KargoFiyatActivity::class.java)
+        startActivity(intent)
+    }
 
 }

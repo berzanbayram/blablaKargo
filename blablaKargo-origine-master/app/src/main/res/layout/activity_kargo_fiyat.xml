@@ -43,7 +43,6 @@
         android:backgroundTint="#CCBEE3"
         android:fontFamily="@font/sfproregular"
 
-        android:onClick="fiyat_hesapla"
         android:text="Fiyat hesapla"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/white"
@@ -128,7 +127,7 @@
         app:layout_constraintVertical_bias="0.425" />
 
     <TextView
-        android:id="@+id/sonuc"
+        android:id="@+id/kg3"
         android:layout_width="249dp"
         android:layout_height="35dp"
         android:fontFamily="@font/sfproregular"
@@ -141,5 +140,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.772" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>

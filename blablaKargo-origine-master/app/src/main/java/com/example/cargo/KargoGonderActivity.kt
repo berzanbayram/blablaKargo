@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import com.example.cargo.databinding.ActivityAliciBilgileriBinding
 import com.example.cargo.databinding.ActivityKargoGonderBinding
 import com.google.firebase.database.FirebaseDatabase
 
@@ -17,17 +18,15 @@ class KargoGonderActivity : AppCompatActivity() {
         var database = FirebaseDatabase.getInstance().reference
 
         binding.btnAlGonder.setOnClickListener {
-            var AdSoyad = binding.AdSoyad.text.toString()
-            var idTelefon = binding.telefon.text.toString()
+            var gonAdSoyad = binding.gonAdSoyad.text.toString()
+            var telefon = binding.telefon.text.toString()
             var ilce = binding.ilce.text.toString()
             var mahalle = binding.mahalle.text.toString()
             var cadde = binding.cadde.text.toString()
             var sokak = binding.sokak.text.toString()
 
-            database.child("carGo Gonderici Bilgileri").child(idTelefon).setValue(kisiBilgileri(AdSoyad, ilce, mahalle, cadde, sokak))
+            database.child(telefon).setValue(aliciBilgileri(gonAdSoyad, ilce, mahalle, cadde, sokak))
 
-            val intent = Intent(this, AliciBilgileriActivity::class.java)
-            startActivity(intent)
         }
 
 
@@ -37,6 +36,9 @@ class KargoGonderActivity : AppCompatActivity() {
             startActivity(intent)
          }
 
-
+        fun button(view: View) {
+            val intent = Intent(this, AliciBilgileriActivity::class.java)
+            startActivity(intent)
+        }
 
 }
