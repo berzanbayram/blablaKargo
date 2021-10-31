@@ -4,6 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/alici_bilgileri_arkaplan"
     tools:context=".KargoDagitActivity">
+
+    <ImageView
+        android:id="@+id/geri_ok_resim2"
+        android:layout_width="80dp"
+        android:layout_height="44dp"
+        android:onClick=" geri"
+        app:srcCompat="@drawable/geri_oku"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/kargo_gonder_text2"
+        android:layout_width="275dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/sfproregular"
+        android:text="İlandaki Cargolar"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <Button
+        android:id="@+id/btnAlGonder"
+        android:layout_width="271dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#CCBEE3"
+        android:fontFamily="@font/sfproregular"
+        android:text="Devam"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:circularflow_radiusInDP="30"
+        app:cornerRadius="38dp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="669dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

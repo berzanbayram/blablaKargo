@@ -11,6 +11,10 @@ class GonderimTipiActivity : AppCompatActivity() {
         setContentView(R.layout.activity_gonderim_tipi)
 
 
+
+
+
+
     }
     fun kargogonder(view: View) {
         val intent = Intent(this, KargoGonderActivity::class.java)
