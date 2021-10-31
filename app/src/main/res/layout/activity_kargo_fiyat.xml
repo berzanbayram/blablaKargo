@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/giris_ekranlari_arkaplan"
+    tools:context=".KargoFiyatActivity">
+
+    <TextView
+        android:id="@+id/sonuc3"
+        android:layout_width="275dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="57dp"
+        android:fontFamily="@font/sfproregular"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/fiyat_hesapla2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kg5"
+        app:layout_constraintVertical_bias="0.106" />
+
+    <TextView
+        android:id="@+id/kg5"
+        android:layout_width="273dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="142dp"
+        android:fontFamily="@font/sfproregular"
+        android:text="Kargo Takip Numaranız"
+        android:textAlignment="center"
+        android:textColor="#9F80CE"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/fiyat_hesapla2"
+        app:layout_constraintEnd_toEndOf="@+id/sonuc3"
+        app:layout_constraintStart_toStartOf="@+id/sonuc3"
+        app:layout_constraintTop_toBottomOf="@+id/kg2" />
+
+    <ImageView
+        android:id="@+id/geri_ok_resim3"
+        android:layout_width="60dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="46dp"
+        app:layout_constraintBottom_toTopOf="@+id/kargo_gonder_text3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/geri_oku" />
+
+    <TextView
+        android:id="@+id/kargo_gonder_text3"
+        android:layout_width="328dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="135dp"
+        android:fontFamily="@font/sfproregular"
+        android:text="carGonuz  İlandadır"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/kg2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/geri_ok_resim3" />
+
+    <Button
+        android:id="@+id/fiyat_hesapla2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="71dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="41dp"
+        android:backgroundTint="#CCBEE3"
+        android:fontFamily="@font/sfproregular"
+        android:onClick="ucret"
+        android:text="Devam"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:circularflow_radiusInDP="30"
+        app:cornerRadius="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kg5" />
+
+    <TextView
+        android:id="@+id/kg2"
+        android:layout_width="108dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="84dp"
+        android:fontFamily="@font/sfproregular"
+        android:text="Kargonuz"
+        android:textAlignment="center"
+        android:textColor="#9F80CE"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/kg5"
+        app:layout_constraintEnd_toStartOf="@+id/sonuc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kargo_gonder_text3" />
+
+    <TextView
+        android:id="@+id/kg"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="95dp"
+        android:fontFamily="@font/sfproregular"
+        android:text="Kg"
+        android:textAlignment="center"
+        android:textColor="#9F80CE"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sonuc"
+        app:layout_constraintTop_toTopOf="@+id/sonuc" />
+
+    <TextView
+        android:id="@+id/sonuc2"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="11dp"
+        android:fontFamily="@font/sfproregular"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/kg5"
+        app:layout_constraintEnd_toStartOf="@+id/kg4"
+        app:layout_constraintStart_toEndOf="@+id/kg3"
+        app:layout_constraintTop_toBottomOf="@+id/sonuc"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+        android:id="@+id/kg3"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/sfproregular"
+        android:text="Ucretiniz"
+        android:textAlignment="center"
+        android:textColor="#9F80CE"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sonuc2"
+        app:layout_constraintEnd_toStartOf="@+id/sonuc2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/kg4"
+        android:layout_width="0dp"
+        android:layout_height="33dp"
+        android:layout_marginEnd="95dp"
+        android:fontFamily="@font/sfproregular"
+        android:text="Lira"
+        android:textAlignment="center"
+        android:textColor="#9F80CE"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="@+id/sonuc2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sonuc2" />
+
+    <TextView
+        android:id="@+id/sonuc"
+        android:layout_width="77dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="11dp"
+        android:fontFamily="@font/sfproregular"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toStartOf="@+id/kg"
+        app:layout_constraintStart_toEndOf="@+id/kg2"
+        app:layout_constraintTop_toTopOf="@+id/kg2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
